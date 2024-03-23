@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
     <h1 style="font-size: 45px; text-align:center">Yatzy Scoreboard</h1><br>
-    <p style = "text-align: center">by Alexander Karlsson</p><br>
+    <h2 style = "text-align: center">by Alexander Karlsson</h2><br></b>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yatzy Scoreboard</title>
 </head>
 <body>
-    <button onclick="name1()">Enter player one</button>
-    <button>Enter player two</button>
 
-<script>  
-  var myButton1 = document.getElementById("button1");
+  </html><button id="button1">Ettor</button>
 
-function name1 (){
-    var name2 = prompt("Enter player 1")
- document.write(name2 ) 
+<script>
+
+var myButton1 = document.getElementById("button1");
+
+function result1(){
+var ettor1 = prompt("Enter your score: ")
+if (ettor1 <=5 ){
+   alert("Your score is: " + ettor1)
 }
+else var ettor1 = prompt("Enter your score: ")
+}
+myButton1.addEventListener("click", result1);
+
+
 </script>
 
-
+</body>
+</html>
     
