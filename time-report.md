@@ -16,3 +16,10 @@
 - Struggled with forcing the right input (3, 6, 9, 12, 15 for the threes for example). The answer was an array.
 - The input-variables is inside of the functions, added them outside of the functions so that the program can fetch data from it.
 
+2024-03-27   20.50   45min
+- Added the button for two pairs. And the function. In this function I wanted several conditions to be met, it should be dividable with 2, not greater than 22 etc. Googled my way to the syntax && .
+- Stuck in two pairs if you misclicked and want to cancel that prompt.
+
+
+
+Total time: 5hr 45 min.
