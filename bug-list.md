@@ -6,6 +6,6 @@
 
 
 2. Problem: Trying to input the result of two pairs and it works correctly, but if you want to cancel that action you can't.
-Solution:
+Solution: Changed the "&&" code to if else statements.
 
 
