@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1 style="font-size: 45px; text-align:center">Yatzy Scoreboard 🎲</h1>
-  <h2 style = "text-align: center">by Alexander Karlsson</h2><br></b>
+  <h2 style = "text-align: center">by Alexander Karlsson - https://alexanderrific.github.io/</h2><br></b>
 
 <d</div>
   <button id="button1">Ettor</button><span id="ettor111">Your result</span><br>
@@ -31,6 +31,26 @@
 
     
   }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h2 {
+    display: block;
+    font-size: .80em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
 
 
   </style>
@@ -169,7 +189,7 @@ function twopair2() {
     // Check if the entered score meets the conditions
     if (!isNaN(twopair) && twopair % 2 === 0 && twopair >= 2 && twopair <= 22) {
         document.getElementById("twopair222").innerHTML = twopair;
-    } 
+    }   
     else {
         // If the entered score doesn't meet the conditions, prompt again
         twopair2();
