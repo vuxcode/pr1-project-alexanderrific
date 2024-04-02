@@ -17,12 +17,21 @@
   <button id="button3">Treor</button><span id="treor333">Your result</span><br>
   <button id="button4">Fyror</button><span id="fyror444">Your result</span><br>
   <button id="button5">Femmor</button><span id="femmor555">Your result</span><br>
-  <button id="button6">Sexor</button><span id="sexor666">Your result</span><br>
+  <button id="button6">Sexor</button><span id="sexor666">Your result</span><br><br>
 
   <span id=delsumma1>Delsumma</span><span id=delsumma>-------</span><br>
-  <span id=bonus1>Bonus</span><span id=bonus>-------</span><br>
+  <span id=bonus1>Bonus</span><span id=bonus>-------</span><br><br>
 
   <button id="button7">Tvåpar</button><span id="twopair222">Your result</span><br>
+  <button id="button8">Triss</button><span id="triss333">Your result</span><br>
+  <button id="button9">Fyrtal</button><span id="fyrtal444">Your result</span><br>
+  <button id="button10">Liten stege</button><span id="liten12345">Your result</span><br>
+  <button id="button11">Stor stege</button><span id="stor23456">Your result</span><br>
+  <button id="button12">Kåk</button><span id="kåk22333">Your result</span><br>
+  <button id="button13">Chans</button><span id="chans1234">Your result</span><br>
+  <button id="button14">Yatzy</button><span id="yatzy666">Your result</span><br><br>
+  <span id=bonus1>Total</span><span id=bonus>-------</span><br>
+
 
   <style> span {
     border: 1px solid black;;
@@ -63,6 +72,13 @@ var myButton4 = document.getElementById("button4");
 var myButton5 = document.getElementById("button5");
 var myButton6 = document.getElementById("button6");
 var myButton7 = document.getElementById("button7")
+var myButton8 = document.getElementById("button8");
+var myButton9 = document.getElementById("button9");
+var myButton10 = document.getElementById("button10");
+var myButton11 = document.getElementById("button11");
+var myButton12 = document.getElementById("button12");
+var myButton13 = document.getElementById("button13");
+var myButton14 = document.getElementById("button14")
 var ettor1 
 var tvaor
 var treor
@@ -70,6 +86,13 @@ var fyror
 var femmor
 var sexor 
 var twopair
+var triss
+var fyrtal
+var litenstege
+var storstege
+var fullhouse
+var chans
+var yatzy
 
 
 //Vad händer när man klickar på knappen "Ettor"
@@ -164,19 +187,6 @@ if (sexorresult.includes(sexor))
 else result6()
 }
 
-//the function determing what happens when you press the button "Tvåpar"
-//myButton7.addEventListener("click", twopair2);
-//var twopairresult = "divideable by 2, no less than 2 and not hight than 22"
-//
-//function twopair2(){
-//twopair = prompt("Tvåpar. \nEnter your score: ")
-//twopair = Number(twopair)
-//
-//if (twopairresult.includes(twopair))
-//document.getElementById("twopair222").innerHTML = twopair
-//
-//else twopair2()
-//}
 
 //var twopairresult = "divideable by 2, no less than 2 and not higher than 22";
 
@@ -187,13 +197,17 @@ function twopair2() {
     twopair = Number(twopair);
 
     // Check if the entered score meets the conditions
-    if (!isNaN(twopair) && twopair % 2 === 0 && twopair >= 2 && twopair <= 22) {
-        document.getElementById("twopair222").innerHTML = twopair;
+    if (twopair <=1){
+      twopair2()
     }   
-    else {
+    else if (twopair >=23){
         // If the entered score doesn't meet the conditions, prompt again
         twopair2();
     }
+    else if (twopair % 2 !=0){
+      twopair2()
+    }
+    else document.getElementById("twopair222").innerHTML = twopair
 }
 
 
