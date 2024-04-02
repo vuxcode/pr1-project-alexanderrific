@@ -20,6 +20,8 @@
 - Added the button for two pairs. And the function. In this function I wanted several conditions to be met, it should be dividable with 2, not greater than 22 etc. Googled my way to the syntax && .
 - Stuck in two pairs if you misclicked and want to cancel that prompt.
 
+2024-04-02 17.30   20min
+- Solved the issue with two pairs.
+- Added the rest of the buttons and created the variables for them.
 
-
-Total time: 5hr 45 min.
+Total time: 6h 5min.
