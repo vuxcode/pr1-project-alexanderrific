@@ -31,7 +31,7 @@
   <button id="button13">Chans</button><span id="chans1234">Your result</span><br>
   <button id="button14">Yatzy</button><span id="yatzy666">Your result</span><br><br>
   <span id=bonus1>Total</span><span id=bonus>-------</span><br>
-
+  <button id="button15">Spela igen?</button>
 
   <style> span {
     border: 1px solid black;;
@@ -63,6 +63,9 @@ h2 {
 
 
   </style>
+
+  
+
 <script>
 //Hämta knappen från html and all of the variables that NEEDS to be outside a function.
 var myButton1 = document.getElementById("button1");
@@ -79,6 +82,7 @@ var myButton11 = document.getElementById("button11");
 var myButton12 = document.getElementById("button12");
 var myButton13 = document.getElementById("button13");
 var myButton14 = document.getElementById("button14")
+var myButton15 = document.getElementById("button14")
 var ettor1 
 var tvaor
 var treor
@@ -92,7 +96,7 @@ var litenstege
 var storstege
 var fullhouse
 var chans
-var yatzy
+var yatzy = true
 
 
 //Vad händer när man klickar på knappen "Ettor"
@@ -100,6 +104,7 @@ myButton1.addEventListener("click", result1);
 //the function determing what happens when you press the button
 function result1(){
 ettor1 = prompt("Ettor. \nEnter your score: ")
+ettor1 = Number(ettor1)
 
 if (ettor1 <=5 )
 document.getElementById("ettor111").innerHTML = ettor1
@@ -210,6 +215,15 @@ function twopair2() {
     else document.getElementById("twopair222").innerHTML = twopair
 }
 
+myButton14.addEventListener("click", yatzy1);
+function yatzy1(){
+yatzy = confirm("Fick du yatzy?")
+if (yatzy == true)
+document.getElementById("yatzy666").innerHTML = 50
+else
+  document.getElementById("yatzy666").innerHTML = 0
+
+}
 
 
 </script>
