@@ -28,7 +28,10 @@
 - Wrote the function for yatzy.
 - Tried to sum all values. Came to the conclusion that some are not defined as numbers. I think it will fix itself when I'm cleaning the code but added it to my to do list in case of.
 
-2024-04-16 2hr
+2024-04-16 3hr
 - Finished nearly all the functions.
+- Discovered that i need to change the function for kåk, it's not a confirm-function but a prompt.
+- Duplicated the code and got it to be side by side.
+
   
-Total time: 8h 50min.
+Total time: 9h 50min.
