@@ -82,7 +82,7 @@ var myButton11 = document.getElementById("button11");
 var myButton12 = document.getElementById("button12");
 var myButton13 = document.getElementById("button13");
 var myButton14 = document.getElementById("button14")
-var myButton15 = document.getElementById("button14")
+var myButton15 = document.getElementById("button15")
 var ettor1 
 var tvaor
 var treor
@@ -97,6 +97,7 @@ var storstege
 var fullhouse
 var chans
 var yatzy = true
+var reboot
 
 
 //Vad händer när man klickar på knappen "Ettor"
@@ -200,9 +201,33 @@ myButton7.addEventListener("click", twopair2);
 function twopair2() {
     twopair = prompt("Tvåpar. \nEnter your score: ");
     twopair = Number(twopair);
+    if (twopair >1 && twopair < 23 && twopair %2 == 0 ){
+  document.getElementById("twopair222").innerHTML = twopair}
+else if (twopair == false) {
+  document.getElementById("twopair222").innerHTML = 0}
+
+
+else {
+  twopair2()
+}}
+
+myButton7.addEventListener("click", twopair2);
+
+function twopair2() {
+    twopair = prompt("Tvåpar. \nEnter your score: ");
+    twopair = Number(twopair);
+    if (twopair >1 && twopair < 23 && twopair %2 == 0 ){
+  document.getElementById("twopair222").innerHTML = twopair}
+else if (twopair == false) {
+  document.getElementById("twopair222").innerHTML = 0}
+
+
+else {
+  twopair2()
+}}
 
     // Check if the entered score meets the conditions
-    if (twopair <=1){
+    /*if (twopair <=1){
       twopair2()
     }   
     else if (twopair >=23){
@@ -212,19 +237,98 @@ function twopair2() {
     else if (twopair % 2 !=0){
       twopair2()
     }
-    else document.getElementById("twopair222").innerHTML = twopair
-}
+    else document.getElementById("twopair222").innerHTML = twopair*/
 
+
+myButton8.addEventListener("click", triss1);
+function triss1() {
+    triss = prompt("Triss. \nEnter your score: ");
+    triss = Number(triss);
+    if (triss >2 && triss < 16 && triss %3 == 0 ){
+  document.getElementById("triss333").innerHTML = triss}
+  else if (triss == false) {
+  document.getElementById("triss333").innerHTML = 0}
+
+else {
+  triss1()
+}}
+
+myButton9.addEventListener("click", fyrtal1);
+function fyrtal1() {
+    fyrtal = prompt("Fyrtal. \nEnter your score: ");
+    triss = Number(triss);
+    if (fyrtal >3 && fyrtal <25 && fyrtal %4 == 0 ){
+  document.getElementById("fyrtal444").innerHTML = fyrtal}
+  else if (fyrtal == false) {
+  document.getElementById("fyrtal444").innerHTML = 0}
+
+else {
+  fyrtal()
+}}
+
+myButton10.addEventListener("click", liten1);
+function liten1() {
+    litenstege = confirm("Fick du liten stege? ");
+    if (litenstege == true ){
+  document.getElementById("liten12345").innerHTML = 15}
+  else if (litenstege == false){
+    document.getElementById("liten12345").innerHTML = 0}
+else {
+  liten1()
+}}
+
+myButton11.addEventListener("click", stor1);
+function stor1() {
+    storstege = confirm("Fick du stor stege? ");
+    if (storstege == true ){
+  document.getElementById("stor23456").innerHTML = 20}
+  else if (storstege == false){
+    document.getElementById("stor23456").innerHTML = 0}
+  
+else {
+  liten1()
+}}
+
+myButton12.addEventListener("click", kak1);
+function kak1() {
+    fullhouse = confirm("Fick du  kåk? ");
+    if (fullhouse = true ){
+  document.getElementById("kåk22333").innerHTML = 28}
+else {
+  kak1()
+}}
+
+myButton13.addEventListener("click", chans1);
+function chans1(){
+chans = prompt("Chans. \nEnter your score: ")
+chans = Number(chans)
+
+if (chans >= 0 && chans < 31)
+  document.getElementById("chans1234").innerHTML = chans
+
+else chans1()
+}
+  
 myButton14.addEventListener("click", yatzy1);
-function yatzy1(){
-yatzy = confirm("Fick du yatzy?")
-if (yatzy == true)
-document.getElementById("yatzy666").innerHTML = 50
-else
-  document.getElementById("yatzy666").innerHTML = 0
+function yatzy1() {
+    yatzy = confirm("Fick du yatzy? ");
+    if (yatzy == true ){
+  document.getElementById("yatzy666").innerHTML = 50}
+  else if (yatzy == false){
+    document.getElementById("yatzy666").innerHTML = 0}
 
-}
-
+  
+else {
+  yatzy1()
+}}
+ 
+myButton15.addEventListener("click", reboot1);
+function reboot1() {
+    reboot = confirm("Vill du spela igen? ");
+    if (reboot == true){
+      location.reload()
+    }
+  }
 
 </script>
 
