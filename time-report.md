@@ -27,4 +27,8 @@
 2024-04-03 19.00   45min
 - Wrote the function for yatzy.
 - Tried to sum all values. Came to the conclusion that some are not defined as numbers. I think it will fix itself when I'm cleaning the code but added it to my to do list in case of.
-Total time: 6h 50min.
+
+2024-04-16 2hr
+- Finished nearly all the functions.
+  
+Total time: 8h 50min.
