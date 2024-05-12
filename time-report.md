@@ -33,5 +33,7 @@
 - Discovered that i need to change the function for kåk, it's not a confirm-function but a prompt.
 - Duplicated the code and got it to be side by side.
 
-  
+2024-05-06 1hr
+Cleaned all the code
+made sure the buttons made what they're supposed to do
 Total time: 9h 50min.
