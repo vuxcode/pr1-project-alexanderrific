@@ -18,9 +18,9 @@
 
 
 
-  <input id="userinput1" type="text"><br>
-  
 
+  
+  <button id="button0">Enter your name</button><span id="name111">Player one</span><br><br>
   <button id="button1">Ettor</button><span id="ettor111">Your result</span><br>
   <button id="button2">Tvåor</button><span id="tvåor222">Your result</span><br>
   <button id="button3">Treor</button><span id="treor333">Your result</span><br>
@@ -28,7 +28,7 @@
   <button id="button5">Femmor</button><span id="femmor555">Your result</span><br>
   <button id="button6">Sexor</button><span id="sexor666">Your result</span><br><br>
 
-  <span id=delsumma1>Delsumma</span><span id=delsumma>-------</span><br>
+  <span id=delsumma1>Delsumma</span><span id=delsumma123>-------</span><br>
   <span id=bonus1>Bonus</span><span id=bonus>-------</span><br><br>
 
   <button id="button7">Tvåpar</button><span id="twopair222">Your result</span><br>
@@ -94,6 +94,7 @@ h2 {
 
 <script>
 //Hämta knappen från html and all of the variables that NEEDS to be outside a function.
+var myButton0 = document.getElementById("button0");
 var myButton1 = document.getElementById("button1");
 var myButton2 = document.getElementById("button2");
 var myButton3 = document.getElementById("button3");
@@ -128,9 +129,25 @@ var yatzy = true
 var reboot
 var name1
 var value
+var delsumma11 = (ettor1+ tvaor + treor + fyror + femmor + sexor)
+delsumma11 = Number(delsumma11)
 
-document.getElementById("userinput1").value = "Enter player one";
 
+// the function for entering your name
+myButton0.addEventListener("click", name1);
+
+function name1(){
+name11 = prompt("Who is player one?")
+document.getElementById("name111").innerHTML = name11
+
+}
+myButton1.addEventListener("click", result1);
+//the function determing what happens when you press the button
+function result1(){
+ettor1 = prompt("Ettor. \nEnter your score: ")
+ettor1 = Number(ettor1)
+
+}
 
 //Vad händer när man klickar på knappen "Ettor"
 
