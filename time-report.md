@@ -36,4 +36,9 @@
 2024-05-06 1hr
 Cleaned all the code
 made sure the buttons made what they're supposed to do
-Total time: 9h 50min.
+
+
+2024-05-13 1hr 30 min
+ - Got the "Name" variable working, researched what's wrong with the code calculating the result.
+
+ - Total time: 12h 20min.
