@@ -41,4 +41,16 @@ made sure the buttons made what they're supposed to do
 2024-05-13 1hr 30 min
  - Got the "Name" variable working, researched what's wrong with the code calculating the result.
 
- - Total time: 12h 20min.
+2024-05-15 1hr 30 min
+   - Duplicated the code for player two.
+   - changed all the variables for player 2
+
+2024-05-19 2hr 30min
+- Fixed all the issues coming with changing the variable names
+- Added a button for calculating the result
+- Wrote the function for calculating the result
+- Wrote the variables for partsum 1, 2 and bonus for both players.
+  
+
+ - Total time: 16h 20min. (And all the 15 minute brakes at work googling something, making a small change etc. ca 4hr)
+   Totaling 20hrs.
