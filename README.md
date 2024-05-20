@@ -16,4 +16,10 @@ The final program is not the goal! The aim of the project is to show how you hav
 
 # User Guide
 
-> Write a clear user guide for how someone should use your program.
+This is an app for taking score of a yatzy-game. Not the game itself. You will need your own physical dice.
+
+Click the button which says the thing you want to register, i.e. not the box that says "Your result"
+
+When asked if you got Yatzy, Liten stege etc: OK = YES
+Avbryt/Cance = NO
+Use your own dices.
