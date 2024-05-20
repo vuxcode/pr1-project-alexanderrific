@@ -50,7 +50,12 @@ made sure the buttons made what they're supposed to do
 - Added a button for calculating the result
 - Wrote the function for calculating the result
 - Wrote the variables for partsum 1, 2 and bonus for both players.
+
+2024-05-20 10min
+- Updated a spelling error in the prompt for Chans.
+- Updated the dialogue box and removed some unneccesary spaces.
+
   
 
- - Total time: 16h 20min. (And all the 15 minute brakes at work googling something, making a small change etc. ca 4hr)
-   Totaling 20hrs.
+ - Total time: 16h 30min. (And all the 15 minute brakes at work googling something, making a small change etc. ca 4hr)
+   Totaling 20-21hrs.
