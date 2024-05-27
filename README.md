@@ -12,7 +12,23 @@ The final program is not the goal! The aim of the project is to show how you hav
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here. 
+A description of how you want to present the project to the world
+I want to present it like another way of taking score when playing yatzy.
+
+A reflection of the experiences you had while creating the project
+The thinking itself was my critical part, and I think it showes in my code.
+I might be able to read it but it's messy and probably hard for others to read when compared to others, that is something for me to improve.
+
+A list of what could be improved in the program if you had more time?
+I've struggled with the function "winner()" that I want to run automaticly after all the variables are >= 0. I've tried with making a function that runs with every input;
+"function checkWinner (If ettor1 >= 0 && ettorz >= 0){
+winner()" but then I get the winner alert everytime I enter a score.
+That's something i would've wanted and will add and continue to work with outside of school.
+
+The code could've been cleaner. As we discussed there is an easier way to write this.
+
+A conclusion on the budget. Did you manage to stick to the budget? Why? / Why not?
+I'm fairly close to the budget. I think that if I've taken more time of work to be able to really focus on every lesson, I wouldn't have had to spend so much time researching previous lessons.
 
 # User Guide
 
@@ -22,4 +38,5 @@ Click the button which says the thing you want to register, i.e. not the box tha
 
 When asked if you got Yatzy, Liten stege etc: OK = YES
 Avbryt/Cance = NO
+
 Use your own dices.
