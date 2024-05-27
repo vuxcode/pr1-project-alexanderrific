@@ -30,6 +30,8 @@ The code could've been cleaner. As we discussed there is an easier way to write 
 A conclusion on the budget. Did you manage to stick to the budget? Why? / Why not?
 I'm fairly close to the budget. I think that if I've taken more time of work to be able to really focus on every lesson, I wouldn't have had to spend so much time researching previous lessons.
 
+I would love for the program to be responsive. If you open it on your mobile phones browser it's not really enjoyable to play.
+
 # User Guide
 
 This is an app for taking score of a yatzy-game. Not the game itself. You will need your own physical dice.
