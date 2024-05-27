@@ -55,7 +55,14 @@ made sure the buttons made what they're supposed to do
 - Updated a spelling error in the prompt for Chans.
 - Updated the dialogue box and removed some unneccesary spaces.
 
-  
+2024-05-26 - 1hr
+- Removed an undefined variable. It was used in a function that didn't do what it was supposed to.
 
- - Total time: 16h 30min. (And all the 15 minute brakes at work googling something, making a small change etc. ca 4hr)
-   Totaling 20-21hrs.
+2024-05-27 2hr
+- Tried everything I know to get the "winner()"-function to run automaticly when the program is done. Without result.
+
+
+ - Total time: 19h 30min. 
+* (And all the 15 minute brakes at work googling something, making a small change etc. ca 4hr) 
+** (Not included below time spend discussing my problems with others ca. 2-4 hr.)
+   Totaling 24-25hrs.
